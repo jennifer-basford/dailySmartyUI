@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import { Link } from "react-router-dom";
+
 import DS_Logo from "../../static/assets/ds_circle_logo.png";
 
 class Logo extends Component {
@@ -10,7 +12,9 @@ class Logo extends Component {
     };
     return (
       <div className="logo-main">
-        <img style={size} src={DS_Logo} />
+        <Link to="/">
+          <img style={size} src={DS_Logo} />
+        </Link>
       </div>
     );
   }
