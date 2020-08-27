@@ -38,12 +38,15 @@
   }
 
   .result-post__links {
+    display: flex;
   }
 }
 
 .post-link {
   min-height: 70px;
   display: flex;
+  flex-basis: 25px;
+  margin-right: 37px;
 
   .post-link__box {
     min-width: 70px;
